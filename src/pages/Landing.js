@@ -402,7 +402,7 @@ export default function Landing() {
               <Shield size={13} /> Admin Panel
             </span>
           )}
-          <span style={{ fontSize: '13px', color: muted }}>Built by Satyam Agrawal</span>
+          <span style={{ fontSize: '13px', color: muted }}>Built by Aman Rathore</span>
         </div>
       </footer>
 

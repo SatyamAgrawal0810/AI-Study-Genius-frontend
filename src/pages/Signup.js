@@ -192,7 +192,7 @@ export default function Signup() {
                   <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#1C1409', marginBottom: '6px' }}>Full name</label>
                   <div style={{ position: 'relative' }}>
                     <User size={15} style={{ position: 'absolute', left: '13px', top: '50%', transform: 'translateY(-50%)', color: muted, pointerEvents: 'none' }} />
-                    <input type="text" autoComplete="name" value={form.name} onChange={e => setForm({ ...form, name: e.target.value })} required placeholder="Satyam Agrawal"
+                    <input type="text" autoComplete="name" value={form.name} onChange={e => setForm({ ...form, name: e.target.value })} required placeholder="Aman Rathore"
                       style={{ width: '100%', padding: '11px 13px 11px 40px', borderRadius: '10px', border: `1px solid rgba(186,117,23,0.16)`, background: 'rgba(186,117,23,0.03)', fontSize: '14px', color: '#1C1409', outline: 'none', transition: 'border-color 0.2s', fontFamily: 'inherit', WebkitAppearance: 'none' }}
                       onFocus={e => e.target.style.borderColor = accent} onBlur={e => e.target.style.borderColor = 'rgba(186,117,23,0.16)'} />
                   </div>
